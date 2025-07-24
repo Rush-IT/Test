@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rashi\\source\\repos\\TestingTask\\TestingTask\\TestingTask.csproj",
+      "projectUniqueName": "C:\\Users\\rashi\\OneDrive\\Документы\\GitHub\\Test\\TestingTask\\TestingTask\\TestingTask.csproj",
       "projectName": "TestingTask",
-      "projectPath": "C:\\Users\\rashi\\source\\repos\\TestingTask\\TestingTask\\TestingTask.csproj",
+      "projectPath": "C:\\Users\\rashi\\OneDrive\\Документы\\GitHub\\Test\\TestingTask\\TestingTask\\TestingTask.csproj",
       "packagesPath": "C:\\Users\\rashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rashi\\source\\repos\\TestingTask\\TestingTask\\obj\\",
+      "outputPath": "C:\\Users\\rashi\\OneDrive\\Документы\\GitHub\\Test\\TestingTask\\TestingTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
