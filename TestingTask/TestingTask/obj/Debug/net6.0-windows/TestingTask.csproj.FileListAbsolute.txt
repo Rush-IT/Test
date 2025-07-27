@@ -37,5 +37,6 @@ C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\o
 C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\TestingTask.pdb
 C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\TestingTask.genruntimeconfig.cache
 C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\ref\TestingTask.dll
-C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
-C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\Views\MainWindow.baml
+C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\rashi\OneDrive\Документы\GitHub\Test\TestingTask\TestingTask\obj\Debug\net6.0-windows\MainWindow.baml
