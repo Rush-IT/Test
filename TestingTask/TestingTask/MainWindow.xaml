@@ -3,10 +3,46 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TestingTask"
+        xmlns:local="clr-namespace:TestingTask.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
 
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ItemsControl ItemsSource="{Binding Downloads}" Grid.Row="0">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="1" Margin="8" Padding="6">
+                        <StackPanel>
+                            <Image Source="{Binding Image}" Height="120" Width="250" Stretch="Uniform" Margin="0,5,0,0"/>
+                            <TextBox Text="{Binding Url, UpdateSourceTrigger=PropertyChanged}" Width="250"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                <Button Content="Старт" Command="{Binding StartCommand}" Margin="0,0,5,0"/>
+                                <Button Content="Стоп" Command="{Binding CancelCommand}"/>
+                            </StackPanel>
+                            
+                            <ProgressBar Value="{Binding Progress}" Maximum="100" Height="12" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding Status}"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,18,0,0">
+            <Button Content="Загрузить все" Command="{Binding StartAllCommand}" Width="140" Margin="0,0,22,0"/>
+            <ProgressBar Value="{Binding OverallProgress}" Maximum="100" Width="380" Height="18" Margin="0,0,14,0"/>
+            <TextBlock Text="{Binding OverallStatus}" VerticalAlignment="Center"/>
+        </StackPanel>
     </Grid>
 </Window>
