@@ -38,6 +38,69 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
+=======
+              "DocumentIndex": 1,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\Model\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "TestingTask\\Model\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\Model\\RelayCommand.cs",
+              "RelativeToolTip": "TestingTask\\Model\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T11:34:08.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TestingTask\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TestingTask\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T11:27:11.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageUrl.cs",
+              "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\ImageUrl.cs",
+              "RelativeDocumentMoniker": "TestingTask\\ViewModel\\ImageUrl.cs",
+              "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\ImageUrl.cs",
+              "RelativeToolTip": "TestingTask\\ViewModel\\ImageUrl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T11:15:02.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "TestingTask\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "TestingTask\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T11:10:36.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DownloadImageService.cs",
+              "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\Model\\DownloadImageService.cs",
+              "RelativeDocumentMoniker": "TestingTask\\Model\\DownloadImageService.cs",
+              "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\Model\\DownloadImageService.cs",
+              "RelativeToolTip": "TestingTask\\Model\\DownloadImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T08:23:47.052Z"
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\rashi\\source\\repos\\TestingTask\\TestingTask\\MainWindow.xaml",
