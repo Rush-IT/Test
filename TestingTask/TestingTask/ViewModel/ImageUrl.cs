@@ -1,22 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using System.Windows.Media;
 using TestingTask.Model;
 
 namespace TestingTask.ViewModel
 {
-    public class ImageUrl
+    public class ImageUrl : INotifyPropertyChanged
     {
+        //Команды начала и отмены загрузки
+        public RelayCommand StartCommand { get; }
+        public RelayCommand CancelCommand { get; }
+
         private string url = "";
         public string Url
         {
             get => url;
-            set { url = value; }
+            set { url = value; OnPropertyChanged(nameof(Url)); (StartCommand as RelayCommand)?.RaiseCanExecuteChanged(); }
         }
         //Загруженное изобаржение
         private ImageSource? image;
@@ -40,6 +38,9 @@ namespace TestingTask.ViewModel
         public ImageUrl()
         {
             downloadService = new DownloadImageService();
+            StartCommand = new RelayCommand(async _ => await StartDownload(), _ => !IsDownloading && !string.IsNullOrWhiteSpace(Url));
+            CancelCommand = new RelayCommand(_ => CancelDownload(), _ => IsDownloading);
+
         }
 
         //Начало загрузки
@@ -49,11 +50,12 @@ namespace TestingTask.ViewModel
             IsDownloading = true;
             Progress = 0;
             Image = null;
+            (StartCommand as RelayCommand)?.RaiseCanExecuteChanged();
+            (CancelCommand as RelayCommand)?.RaiseCanExecuteChanged();
             cts = new CancellationTokenSource();
             try
             {
-                var img = await downloadService.DownloadImageAsync(Url,
-                    (p) => Progress = p, cts.Token);
+                var img = await downloadService.DownloadImageAsync(Url, progress => Progress = progress, cts.Token);
 
                 Image = img;
                 Status = "Готово";
@@ -69,7 +71,14 @@ namespace TestingTask.ViewModel
             finally
             {
                 IsDownloading = false;
+                (StartCommand as RelayCommand)?.RaiseCanExecuteChanged();
+                (CancelCommand as RelayCommand)?.RaiseCanExecuteChanged();
             }
+            
+        }
+        public void CancelDownload()
+        {
+            cts?.Cancel();
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

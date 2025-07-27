@@ -9,6 +9,7 @@
     <Window.DataContext>
         <local:MainViewModel/>
     </Window.DataContext>
+
     <Grid Margin="15">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -28,7 +29,7 @@
                             <TextBox Text="{Binding Url, UpdateSourceTrigger=PropertyChanged}" Width="250"/>
                             <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                                 <Button Content="Старт" Command="{Binding StartCommand}" Margin="0,0,5,0"/>
-                                <Button Content="Стоп" Command="{Binding CanselCommand}"/>
+                                <Button Content="Стоп" Command="{Binding CancelCommand}"/>
                             </StackPanel>
                             
                             <ProgressBar Value="{Binding Progress}" Maximum="100" Height="12" Margin="0,5,0,0"/>

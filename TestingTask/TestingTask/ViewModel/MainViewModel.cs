@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestingTask.Model;
 
 namespace TestingTask.ViewModel
@@ -30,21 +25,24 @@ namespace TestingTask.ViewModel
         public MainViewModel()
         {
             Downloads = new ObservableCollection<ImageUrl>
-        {
-            new ImageUrl(),
-            new ImageUrl(),
-            new ImageUrl(),
-        };
+            {
+                new ImageUrl(),
+                new ImageUrl(),
+                new ImageUrl(),
+            };
 
             foreach (var item in Downloads)
             {
                 item.PropertyChanged += (_, e) =>
                 {
                     if (e.PropertyName == nameof(item.Progress) || e.PropertyName == nameof(item.Status))
+                    {
                         UpdateOverallStatus();
+                        (StartAllCommand as RelayCommand)?.RaiseCanExecuteChanged();
+                    }
                 };
             }
-            StartAllCommand = new RelayCommand(_ => StartAll(), _ => Downloads.Any(d => !d.IsDownloading && !string.IsNullOrWhiteSpace(d.Url)));
+            StartAllCommand = new RelayCommand(_ => StartAll());
         }
 
         private void UpdateOverallStatus()

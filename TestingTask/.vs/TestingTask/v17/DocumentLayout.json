@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\viewmodel\\imageurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\viewmodel\\imageurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +15,24 @@
       "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\model\\downloadimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\model\\downloadimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\viewmodel\\imageurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\viewmodel\\imageurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|c:\\users\\rashi\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\test\\testingtask\\testingtask\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2714A407-411C-46EE-90D8-0D23FE364369}|TestingTask\\TestingTask.csproj|solutionrelative:testingtask\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "TestingTask\\Model\\RelayCommand.cs",
               "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\Model\\RelayCommand.cs",
               "RelativeToolTip": "TestingTask\\Model\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T11:34:08.085Z",
               "EditorCaption": ""
@@ -81,53 +81,53 @@
               "RelativeDocumentMoniker": "TestingTask\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\MainWindow.xaml.cs",
               "RelativeToolTip": "TestingTask\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T11:27:11.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ImageUrl.cs",
               "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\ImageUrl.cs",
               "RelativeDocumentMoniker": "TestingTask\\ViewModel\\ImageUrl.cs",
               "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\ImageUrl.cs",
               "RelativeToolTip": "TestingTask\\ViewModel\\ImageUrl.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAASwEoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T11:15:02.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "TestingTask\\ViewModel\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "TestingTask\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T11:10:36.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "DownloadImageService.cs",
               "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\Model\\DownloadImageService.cs",
               "RelativeDocumentMoniker": "TestingTask\\Model\\DownloadImageService.cs",
               "ToolTip": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\Model\\DownloadImageService.cs",
               "RelativeToolTip": "TestingTask\\Model\\DownloadImageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T08:23:47.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TestingTask\\MainWindow.xaml",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\App.xaml.cs",
               "RelativeDocumentMoniker": "TestingTask\\App.xaml.cs",
@@ -147,12 +147,11 @@
               "RelativeToolTip": "TestingTask\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T20:36:30.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T20:36:30.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\rashi\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Test\\TestingTask\\TestingTask\\App.xaml",
               "RelativeDocumentMoniker": "TestingTask\\App.xaml",
